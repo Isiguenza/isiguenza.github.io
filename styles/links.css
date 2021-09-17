@@ -1,0 +1,89 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: rgb(20, 0, 52);
+  background-image: url("https://media.discordapp.net/attachments/774868403135053845/888492454326698054/bg-links.png?width=1618&height=910");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  text-align: center;
+}
+
+img {
+  max-width: 150px;
+  border-radius: 50%;
+  margin-top: 150px;
+}
+
+h1 {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+  margin: auto;
+  text-align: center;
+  color: white;
+}
+
+.btn {
+  flex: 1 1 auto;
+  margin-top: 20px;
+  padding: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  max-width: 300px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-position: right center;
+}
+
+.btn-1 {
+  background-image: linear-gradient(
+    to right,
+    #f6d365 0%,
+    #fda085 51%,
+    #f6d365 100%
+  );
+}
+
+.btn-2 {
+  background-image: linear-gradient(
+    to right,
+    #e080d3 0%,
+    #b11b97 51%,
+    #7d1b88 100%
+  );
+}
+
+.btn-3 {
+  background-image: linear-gradient(
+    to right,
+    #84fab0 0%,
+    #8fd3f4 51%,
+    #84fab0 100%
+  );
+}
+
+.btn-4 {
+  background-image: linear-gradient(
+    to right,
+    #a1c4fd 0%,
+    #c2e9fb 51%,
+    #a1c4fd 100%
+  );
+}
+
+.btn-5 {
+  background-image: linear-gradient(
+    to right,
+    #ffecd2 0%,
+    #fcb69f 51%,
+    #ffecd2 100%
+  );
+}
